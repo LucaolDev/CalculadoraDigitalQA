@@ -2,23 +2,23 @@ package FontesCalculadora;
 
 public class CalculadoraAritimetica {
 	
-	public  int multiplicar(int n1, int n2) {
+	public  double multiplicar(double n1, double n2) {
 		return n1 * n2;
 	}
 
-	public int dividir(int n1, int n2) {
+	public double dividir(double n1, double n2) {
 	    if (n2 == 0) {
 	        throw new IllegalArgumentException("Não é possível dividir por zero");
 	    }
 	    return n1 / n2;
 	}
 
-	public  int somar(int n1, int n2) {
-		return n1 + n2;
+	public  double somar(double nro1, double nro2) {
+		return nro1 + nro2;
 		
 	}
 
-	public  int subtrair(int n1, int n2) {
+	public  double subtrair(double n1, double n2) {
 		return n1 - n2;
 		
 	}
